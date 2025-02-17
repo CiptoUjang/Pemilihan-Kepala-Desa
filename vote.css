@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    padding: 25px;
+  }
+  .title {
+      color: black;
+  }
+  
+  .kandidat {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px 0;
+  }
+  
+  .calon {
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 15px;
+      width: 220px;
+      text-align: center;
+  }
+  
+  .vote {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 18px;
+      font-size: 16px;
+      background-color: black;
+      color: white;
+      border-radius: 6px;
+      transition: 0.3s;
+      text-decoration: none;
+  }
+  
+  .vote:hover {
+      background-color: gray;
+  }
+  
